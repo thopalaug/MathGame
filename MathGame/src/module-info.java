@@ -3,5 +3,7 @@ module MathGame {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens sample;
+    opens Model;
+    opens View;
+    opens Controller;
 }
